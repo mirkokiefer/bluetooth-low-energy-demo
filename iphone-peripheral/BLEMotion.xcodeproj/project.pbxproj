@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC63C7F8193A95C300E62172 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC63C7F7193A95C300E62172 /* Foundation.framework */; };
+		AC63C7FA193A95C300E62172 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC63C7F9193A95C300E62172 /* CoreGraphics.framework */; };
+		AC63C7FC193A95C300E62172 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC63C7FB193A95C300E62172 /* UIKit.framework */; };
+		AC63C802193A95C300E62172 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC63C800193A95C300E62172 /* InfoPlist.strings */; };
+		AC63C804193A95C300E62172 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC63C803193A95C300E62172 /* main.m */; };
+		AC63C808193A95C300E62172 /* LCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC63C807193A95C300E62172 /* LCAppDelegate.m */; };
+		AC63C80B193A95C300E62172 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC63C809193A95C300E62172 /* Main.storyboard */; };
+		AC63C80E193A95C300E62172 /* LCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC63C80D193A95C300E62172 /* LCViewController.m */; };
+		AC63C810193A95C300E62172 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC63C80F193A95C300E62172 /* Images.xcassets */; };
+		AC63C817193A95C300E62172 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC63C816193A95C300E62172 /* XCTest.framework */; };
+		AC63C818193A95C300E62172 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC63C7F7193A95C300E62172 /* Foundation.framework */; };
+		AC63C819193A95C300E62172 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC63C7FB193A95C300E62172 /* UIKit.framework */; };
+		AC63C821193A95C300E62172 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC63C81F193A95C300E62172 /* InfoPlist.strings */; };
+		AC63C823193A95C300E62172 /* BLEMotionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC63C822193A95C300E62172 /* BLEMotionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC63C81A193A95C300E62172 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC63C7EC193A95C300E62172 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC63C7F3193A95C300E62172;
+			remoteInfo = BLEMotion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC63C7F4193A95C300E62172 /* BLEMotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLEMotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC63C7F7193A95C300E62172 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC63C7F9193A95C300E62172 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC63C7FB193A95C300E62172 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AC63C7FF193A95C300E62172 /* BLEMotion-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BLEMotion-Info.plist"; sourceTree = "<group>"; };
+		AC63C801193A95C300E62172 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC63C803193A95C300E62172 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC63C805193A95C300E62172 /* BLEMotion-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BLEMotion-Prefix.pch"; sourceTree = "<group>"; };
+		AC63C806193A95C300E62172 /* LCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCAppDelegate.h; sourceTree = "<group>"; };
+		AC63C807193A95C300E62172 /* LCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCAppDelegate.m; sourceTree = "<group>"; };
+		AC63C80A193A95C300E62172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC63C80C193A95C300E62172 /* LCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCViewController.h; sourceTree = "<group>"; };
+		AC63C80D193A95C300E62172 /* LCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCViewController.m; sourceTree = "<group>"; };
+		AC63C80F193A95C300E62172 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AC63C815193A95C300E62172 /* BLEMotionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLEMotionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC63C816193A95C300E62172 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AC63C81E193A95C300E62172 /* BLEMotionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BLEMotionTests-Info.plist"; sourceTree = "<group>"; };
+		AC63C820193A95C300E62172 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC63C822193A95C300E62172 /* BLEMotionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLEMotionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC63C7F1193A95C300E62172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC63C7FA193A95C300E62172 /* CoreGraphics.framework in Frameworks */,
+				AC63C7FC193A95C300E62172 /* UIKit.framework in Frameworks */,
+				AC63C7F8193A95C300E62172 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC63C812193A95C300E62172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC63C817193A95C300E62172 /* XCTest.framework in Frameworks */,
+				AC63C819193A95C300E62172 /* UIKit.framework in Frameworks */,
+				AC63C818193A95C300E62172 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC63C7EB193A95C300E62172 = {
+			isa = PBXGroup;
+			children = (
+				AC63C7FD193A95C300E62172 /* BLEMotion */,
+				AC63C81C193A95C300E62172 /* BLEMotionTests */,
+				AC63C7F6193A95C300E62172 /* Frameworks */,
+				AC63C7F5193A95C300E62172 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC63C7F5193A95C300E62172 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC63C7F4193A95C300E62172 /* BLEMotion.app */,
+				AC63C815193A95C300E62172 /* BLEMotionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC63C7F6193A95C300E62172 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC63C7F7193A95C300E62172 /* Foundation.framework */,
+				AC63C7F9193A95C300E62172 /* CoreGraphics.framework */,
+				AC63C7FB193A95C300E62172 /* UIKit.framework */,
+				AC63C816193A95C300E62172 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC63C7FD193A95C300E62172 /* BLEMotion */ = {
+			isa = PBXGroup;
+			children = (
+				AC63C806193A95C300E62172 /* LCAppDelegate.h */,
+				AC63C807193A95C300E62172 /* LCAppDelegate.m */,
+				AC63C809193A95C300E62172 /* Main.storyboard */,
+				AC63C80C193A95C300E62172 /* LCViewController.h */,
+				AC63C80D193A95C300E62172 /* LCViewController.m */,
+				AC63C80F193A95C300E62172 /* Images.xcassets */,
+				AC63C7FE193A95C300E62172 /* Supporting Files */,
+			);
+			path = BLEMotion;
+			sourceTree = "<group>";
+		};
+		AC63C7FE193A95C300E62172 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC63C7FF193A95C300E62172 /* BLEMotion-Info.plist */,
+				AC63C800193A95C300E62172 /* InfoPlist.strings */,
+				AC63C803193A95C300E62172 /* main.m */,
+				AC63C805193A95C300E62172 /* BLEMotion-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC63C81C193A95C300E62172 /* BLEMotionTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC63C822193A95C300E62172 /* BLEMotionTests.m */,
+				AC63C81D193A95C300E62172 /* Supporting Files */,
+			);
+			path = BLEMotionTests;
+			sourceTree = "<group>";
+		};
+		AC63C81D193A95C300E62172 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC63C81E193A95C300E62172 /* BLEMotionTests-Info.plist */,
+				AC63C81F193A95C300E62172 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC63C7F3193A95C300E62172 /* BLEMotion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC63C826193A95C300E62172 /* Build configuration list for PBXNativeTarget "BLEMotion" */;
+			buildPhases = (
+				AC63C7F0193A95C300E62172 /* Sources */,
+				AC63C7F1193A95C300E62172 /* Frameworks */,
+				AC63C7F2193A95C300E62172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLEMotion;
+			productName = BLEMotion;
+			productReference = AC63C7F4193A95C300E62172 /* BLEMotion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC63C814193A95C300E62172 /* BLEMotionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC63C829193A95C300E62172 /* Build configuration list for PBXNativeTarget "BLEMotionTests" */;
+			buildPhases = (
+				AC63C811193A95C300E62172 /* Sources */,
+				AC63C812193A95C300E62172 /* Frameworks */,
+				AC63C813193A95C300E62172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC63C81B193A95C300E62172 /* PBXTargetDependency */,
+			);
+			name = BLEMotionTests;
+			productName = BLEMotionTests;
+			productReference = AC63C815193A95C300E62172 /* BLEMotionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC63C7EC193A95C300E62172 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = LivelyCode;
+				TargetAttributes = {
+					AC63C814193A95C300E62172 = {
+						TestTargetID = AC63C7F3193A95C300E62172;
+					};
+				};
+			};
+			buildConfigurationList = AC63C7EF193A95C300E62172 /* Build configuration list for PBXProject "BLEMotion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC63C7EB193A95C300E62172;
+			productRefGroup = AC63C7F5193A95C300E62172 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC63C7F3193A95C300E62172 /* BLEMotion */,
+				AC63C814193A95C300E62172 /* BLEMotionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC63C7F2193A95C300E62172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC63C810193A95C300E62172 /* Images.xcassets in Resources */,
+				AC63C802193A95C300E62172 /* InfoPlist.strings in Resources */,
+				AC63C80B193A95C300E62172 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC63C813193A95C300E62172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC63C821193A95C300E62172 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC63C7F0193A95C300E62172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC63C804193A95C300E62172 /* main.m in Sources */,
+				AC63C808193A95C300E62172 /* LCAppDelegate.m in Sources */,
+				AC63C80E193A95C300E62172 /* LCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC63C811193A95C300E62172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC63C823193A95C300E62172 /* BLEMotionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC63C81B193A95C300E62172 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC63C7F3193A95C300E62172 /* BLEMotion */;
+			targetProxy = AC63C81A193A95C300E62172 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC63C800193A95C300E62172 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC63C801193A95C300E62172 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AC63C809193A95C300E62172 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC63C80A193A95C300E62172 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC63C81F193A95C300E62172 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC63C820193A95C300E62172 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC63C824193A95C300E62172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC63C825193A95C300E62172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC63C827193A95C300E62172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLEMotion/BLEMotion-Prefix.pch";
+				INFOPLIST_FILE = "BLEMotion/BLEMotion-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AC63C828193A95C300E62172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLEMotion/BLEMotion-Prefix.pch";
+				INFOPLIST_FILE = "BLEMotion/BLEMotion-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AC63C82A193A95C300E62172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BLEMotion.app/BLEMotion";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLEMotion/BLEMotion-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BLEMotionTests/BLEMotionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AC63C82B193A95C300E62172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BLEMotion.app/BLEMotion";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLEMotion/BLEMotion-Prefix.pch";
+				INFOPLIST_FILE = "BLEMotionTests/BLEMotionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC63C7EF193A95C300E62172 /* Build configuration list for PBXProject "BLEMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC63C824193A95C300E62172 /* Debug */,
+				AC63C825193A95C300E62172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC63C826193A95C300E62172 /* Build configuration list for PBXNativeTarget "BLEMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC63C827193A95C300E62172 /* Debug */,
+				AC63C828193A95C300E62172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC63C829193A95C300E62172 /* Build configuration list for PBXNativeTarget "BLEMotionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC63C82A193A95C300E62172 /* Debug */,
+				AC63C82B193A95C300E62172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC63C7EC193A95C300E62172 /* Project object */;
+}
